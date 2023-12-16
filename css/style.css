@@ -1,3 +1,8 @@
+
+:root{
+--textcolor: #fff;
+}
+
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
     font-family: 'Anton', sans-serif;
@@ -18,10 +23,24 @@ p {
 .nav-item {
     margin: 0px 15px;
     padding: 10px 0 10px 30px;
+    position: relative;
 }
 .customNav a {
-    color: #fff !important;
+    color:var(--textcolor) !important;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.4px;
+}
+.nav-item a::before {
+    content: '';
+    position: absolute;
+    width:0;    
+    height: 2px;
+    bottom: 5px;    /* adjusted bottom position */   
+    left: 0;
+    background-color:var(--textcolor); /* underline color */
+    transition: width 0.5s ease;   
+}
+.nav-item:hover a::before {
+width:100%
 }
