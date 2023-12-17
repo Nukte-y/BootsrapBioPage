@@ -17,22 +17,37 @@
 <body>
   <header id="header">
   <!-- Navigation bar -->
-  <nav class="navbar navbar-expand-lg customNav">
-    <div class="container-fluid d-flex justify-content-center">
-        <ul class="navbar-nav mb-3 mb-lg-0">
+  <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm customNav">
+    <div class="container-fluid"> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-white" ></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-3 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">HOME</a></li>
+            <a class="nav-link" href="#hero">HOME</a></li>
           <li class="nav-item">
             <a class="nav-link" href="#">WORK</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT ME</a></li>
+            <a class="nav-link" href="#">ABOUT</a></li>
           <li class="nav-item">
             <a class="nav-link" href="#">CONTACT</a></li>
         </ul>
+      </div>
     </div>
   </nav>
   <!-- End navigation bar -->
   </header>
+
+  <!-- Jumbotron/customised -->
+  <div id="hero" class="avatar text-center d-flex align-items-center">
+    <div class="overlay"></div>
+    <div class="container-fluid jumboCopy text-white text-center">
+      <h1 class="display-4 mt-5 fw-bold">I am Nukte a freelance front end developer from the UK</h1>
+      <p class="col fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Commodi, porro.</p>
+    </div>
+  </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
