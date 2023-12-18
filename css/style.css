@@ -8,18 +8,24 @@ body{
 background-color:#f5f5f5;
 }
 /* Text */
-h1, h2, h3 , h4, h5, h6 {
-    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
-}
 h1{
 padding: 30px;
-
+}
+h2, h3 , h4, h5, h6 {
+    color: #1e1e1e;
+    letter-spacing: 1.2;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: bold;
 }
 p {
-    font-family: 'Jura', sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 260; 
+}
 
 /* Navigation bar */
-}
+
  .customNav {
     position: fixed;
     width: 100%;
@@ -78,11 +84,16 @@ p {
     background-attachment: fixed; /* background is fixed */
   }
   .avatar .overlay{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
-    height: 133%;
-    width: 120%;   
+    height: (130vh - 100px) 
   }
 
+/* Work Section */
+
+  section.work{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
   
 
