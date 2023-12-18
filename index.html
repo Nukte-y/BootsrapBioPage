@@ -17,13 +17,14 @@
 <body>
   <header id="header">
   <!-- Navigation bar -->
-  <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm customNav">
+  <nav class="navbar fixed-top navbar-expand-lg customNav">
     <div class="container-fluid"> 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" 
+      data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon bg-white" ></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto mb-3 mb-lg-0">
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto mt-3 mb-3 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="#hero">HOME</a></li>
           <li class="nav-item">
@@ -31,8 +32,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#">ABOUT</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT</a></li>
+            <a class="nav-link" href="#footer">CONTACT</a></li>
         </ul>
+        <i class="bi mobile-nav-toggle bi-list"></i>
       </div>
     </div>
   </nav>
@@ -43,9 +45,8 @@
   <div id="hero" class="avatar text-center d-flex align-items-center">
     <div class="overlay"></div>
     <div class="container-fluid jumboCopy text-white text-center">
-      <h1 class="display-4 mt-5 fw-bold">I am Nukte a freelance front end developer from the UK</h1>
-      <p class="col fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Commodi, porro.</p>
+      <h1 class="hero-h1 mt-5 fw-bold">I am Nukte a freelance front end developer from the UK</h1>
+      <p class="custom-p text-center">The avatar in the background is a visual representation crafted by AI, generated from an actual photograph of mine</p>
     </div>
   </div>
 
@@ -54,29 +55,59 @@
 
 
   <section class="work text-center" id="work">
-    <div class="container">
-      <h2 class="mt-5 mb-4 ">WORKS</h2>
-      <p>Take a glimpse at some of my featured projects for a better understanding of my work.</p>
+    <div class="container-fluid content">
+      <h2 class="sectionHeading">Projects</h2>
+      <div class="line"></div>  <!-- line just for decoration--> 
       <div class="row">
-        <div class="col-sm-5 m-3 mb-sm-0">
-          <div class="card">
+        <!-- Card 1 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card mt-3 effect">
+            <img src="./images/placeholder.PNG" alt="placeholder">
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Description of the project and Lorem ipsum dolor sit amet.</p>
+              <a href="https://placehold.co/600x400/000000/FFF" class="btn btn-primary">Link to Project1</a>
             </div>
           </div>
         </div>
-        <div class="col-sm-5 m-3">
-          <div class="card">
+        <!-- End card 1 -->
+
+        <!-- Card 2 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card mt-3 effect">
+            <img src="./images/placeholder.PNG" class="card-img-top" alt="placeholder">
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Description of the project and Lorem ipsum dolor sit amet.</p>
+              <a href="https://placehold.co/600x400/000000/FFF" class="btn btn-primary">Link to Project2</a>
             </div>
           </div>
         </div>
+        <!-- End card 2 -->
+
+        <!-- Card 3 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card mt-3 effect">
+            <img src="https://placehold.co/600x400/orange/white" class="card-img-top" alt="placeholder">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Description of the project and Lorem ipsum dolor sit amet.</p>
+              <a href="https://placehold.co/600x400/orange/white" class="btn btn-primary">Link to Project3</a> 
+            </div>
+          </div>
+        </div>
+        <!-- End card 3 -->
       </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container" id="footer">
+      <p>&copy; /NY 2023/ All Rights Reserved.</p>
+
+    </div>
+  </footer>
 
 
 
