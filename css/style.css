@@ -170,8 +170,23 @@ p {
     padding: 3rem;
     }
     }
+    .circle {
+    height: 60px;
+    width: 60px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 2px orange;
+    display: block;
+    }
 
-    @media (min-width: 577px) and (max-width: 768px) {
+    .social ul li a:hover svg {      /* Change the fill color of the SVG on hover */
+    fill: orange;            
+    }
+
+    @media (min-width: 375px) and (max-width: 768px) {
     .hero-h1{
     font-size: 30px;    
         }
@@ -180,8 +195,18 @@ p {
           }
     .custom-p {
     font-size: 16px; /* Medium font size for medium screens */
-        }   
+        } 
+    .boxstyle{
+    font: size 14px;
+    padding:0px;}
+    .circle{
+    height: 40px;
+    width: 40px;
+    font-size: 1.5rem;
     }
+
+    } 
+    
   
     @media (min-width: 769px) and (max-width: 992px) {
     .hero-h1{
