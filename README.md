@@ -17,7 +17,7 @@ N/A
 
 ## Usage
 
-The website was created using the Bootstrap library and its styling features Additionally, to enhance the design's uniqueness, I introduced custom styling in the CSS folder.The navigation features a hamburger menu(visible when the device with is 575px or less).Moreover, the contact section provides convenient links to social media channels and a direct email option for easy communication
+The website was created using the Bootstrap library and its styling features. Additionally, to enhance the design's uniqueness, I introduced custom styling in the CSS folder.The navigation features a hamburger menu(visible when the device with is 575px or less).Moreover, the contact section provides convenient links to social media channels and a direct email option for easy communication
 
 Explore different screen size views here:
 
