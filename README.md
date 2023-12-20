@@ -10,7 +10,7 @@ A dynamic portfolio display presenting my works.
 A website that exhibits my projects with sections for details about them, how to get in touch with me,skills I have, and samples of some of my projects.
 
 Here is the link for my page:
-[NukteY//Web Developer](https://nukte-y.github.io/Bootstrap-Portfolio/).
+[BootstrapBioPage](https://nukte-y.github.io/Bootstrap-Portfolio/).
 
 ## Installation
 N/A
