@@ -95,6 +95,12 @@ p {
     transform: scale(0.9);
     transition: transform 0.3 ease;
     }
+
+    .btn-primary:hover {
+    background-color: orange; /* change hover color of the button on the card */
+    border-color: black; /* change border color*/
+    color: black; /* change text color on hover */
+    }
     
     .line{
     width: 50px;
